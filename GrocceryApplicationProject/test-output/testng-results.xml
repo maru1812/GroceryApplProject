@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-22T16:32:24 EDT" name="Suite" finished-at="2026-03-22T16:33:44 EDT" duration-ms="79501">
+    <groups>
+    </groups>
+    <test started-at="2026-03-22T16:32:24 EDT" name="Test" finished-at="2026-03-22T16:33:44 EDT" duration-ms="79501">
+      <class name="testscripts.ManageNewsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:19 EDT" name="launchBrowser" finished-at="2026-03-22T16:33:22 EDT" duration-ms="3433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserIsAbleTOAddNewNews()[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:22 EDT" name="verifyUserIsAbleTOAddNewNews" description="Validate if admin able to add new news" finished-at="2026-03-22T16:33:27 EDT" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleTOAddNewNews -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:27 EDT" name="driverQuit" finished-at="2026-03-22T16:33:28 EDT" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleTOAddNewNews status=SUCCESS method=ManageNewsTest.verifyUserIsAbleTOAddNewNews()[pri:0, instance:testscripts.ManageNewsTest@13526e59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:28 EDT" name="launchBrowser" finished-at="2026-03-22T16:33:31 EDT" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserIsAbleTOSearchNews()[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:31 EDT" name="verifyUserIsAbleTOSearchNews" description="Validate if admin able to search news" finished-at="2026-03-22T16:33:35 EDT" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleTOSearchNews -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:35 EDT" name="driverQuit" finished-at="2026-03-22T16:33:36 EDT" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleTOSearchNews status=SUCCESS method=ManageNewsTest.verifyUserIsAbleTOSearchNews()[pri:0, instance:testscripts.ManageNewsTest@13526e59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:36 EDT" name="launchBrowser" finished-at="2026-03-22T16:33:39 EDT" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserIsAbleToResetNews()[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:39 EDT" name="verifyUserIsAbleToResetNews" description="Validate if admin able to reset news section" finished-at="2026-03-22T16:33:43 EDT" duration-ms="3960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToResetNews -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.ManageNewsTest@13526e59]" started-at="2026-03-22T16:33:43 EDT" name="driverQuit" finished-at="2026-03-22T16:33:44 EDT" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToResetNews status=SUCCESS method=ManageNewsTest.verifyUserIsAbleToResetNews()[pri:0, instance:testscripts.ManageNewsTest@13526e59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.ManageNewsTest -->
+      <class name="testscripts.AdminTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:32:53 EDT" name="launchBrowser" finished-at="2026-03-22T16:32:57 EDT" duration-ms="3616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="adminAddNewUser()[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:32:57 EDT" name="adminAddNewUser" description="Validate if admin able to add new user" finished-at="2026-03-22T16:33:03 EDT" duration-ms="6012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminAddNewUser -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:03 EDT" name="driverQuit" finished-at="2026-03-22T16:33:03 EDT" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adminAddNewUser status=SUCCESS method=AdminTest.adminAddNewUser()[pri:0, instance:testscripts.AdminTest@503f91c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:03 EDT" name="launchBrowser" finished-at="2026-03-22T16:33:07 EDT" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="adminResetUsers()[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:07 EDT" name="adminResetUsers" description="Validate if admin able to reset user added section" finished-at="2026-03-22T16:33:11 EDT" duration-ms="3995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminResetUsers -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:11 EDT" name="driverQuit" finished-at="2026-03-22T16:33:11 EDT" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adminResetUsers status=SUCCESS method=AdminTest.adminResetUsers()[pri:0, instance:testscripts.AdminTest@503f91c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:11 EDT" name="launchBrowser" finished-at="2026-03-22T16:33:14 EDT" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="adminSearchUser()[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:14 EDT" name="adminSearchUser" description="Validate if admin able to search user" finished-at="2026-03-22T16:33:19 EDT" duration-ms="4358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminSearchUser -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminTest@503f91c3]" started-at="2026-03-22T16:33:19 EDT" name="driverQuit" finished-at="2026-03-22T16:33:19 EDT" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adminSearchUser status=SUCCESS method=AdminTest.adminSearchUser()[pri:0, instance:testscripts.AdminTest@503f91c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.AdminTest -->
+      <class name="testscripts.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:24 EDT" name="launchBrowser" finished-at="2026-03-22T16:32:28 EDT" duration-ms="4020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAdminLoginWithValidCreds()[pri:1, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:28 EDT" name="verifyAdminLoginWithValidCreds" description="Validate if user is  able to login with valid credentials" finished-at="2026-03-22T16:32:31 EDT" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLoginWithValidCreds -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:31 EDT" name="driverQuit" finished-at="2026-03-22T16:32:31 EDT" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminLoginWithValidCreds status=SUCCESS method=LoginTest.verifyAdminLoginWithValidCreds()[pri:1, instance:testscripts.LoginTest@6933b6c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:31 EDT" name="launchBrowser" finished-at="2026-03-22T16:32:35 EDT" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAdminLoginWithInvalidPassword()[pri:2, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:35 EDT" name="verifyAdminLoginWithInvalidPassword" description="Validate if user is not able to login with invalid password" finished-at="2026-03-22T16:32:36 EDT" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:36 EDT" name="driverQuit" finished-at="2026-03-22T16:32:36 EDT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminLoginWithInvalidPassword status=SUCCESS method=LoginTest.verifyAdminLoginWithInvalidPassword()[pri:2, instance:testscripts.LoginTest@6933b6c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:36 EDT" name="launchBrowser" finished-at="2026-03-22T16:32:40 EDT" duration-ms="3629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAdminLoginWithInvalidUsername()[pri:3, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:40 EDT" name="verifyAdminLoginWithInvalidUsername" description="Validate if user is not able to login with invalid username" finished-at="2026-03-22T16:32:41 EDT" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLoginWithInvalidUsername -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:41 EDT" name="driverQuit" finished-at="2026-03-22T16:32:41 EDT" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminLoginWithInvalidUsername status=SUCCESS method=LoginTest.verifyAdminLoginWithInvalidUsername()[pri:3, instance:testscripts.LoginTest@6933b6c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:41 EDT" name="launchBrowser" finished-at="2026-03-22T16:32:45 EDT" duration-ms="3521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAdminLoginWithInvalidcreds()[pri:4, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:45 EDT" name="verifyAdminLoginWithInvalidcreds" description="Validate if user is not able to login with invalid credentials" finished-at="2026-03-22T16:32:46 EDT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLoginWithInvalidcreds -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@6933b6c6]" started-at="2026-03-22T16:32:46 EDT" name="driverQuit" finished-at="2026-03-22T16:32:46 EDT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminLoginWithInvalidcreds status=SUCCESS method=LoginTest.verifyAdminLoginWithInvalidcreds()[pri:4, instance:testscripts.LoginTest@6933b6c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.LoginTest -->
+      <class name="testscripts.HomeTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testscripts.HomeTest@7098b907]" started-at="2026-03-22T16:32:46 EDT" name="launchBrowser" finished-at="2026-03-22T16:32:50 EDT" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserAbleToLogout()[pri:0, instance:testscripts.HomeTest@7098b907]" started-at="2026-03-22T16:32:50 EDT" name="verifyUserAbleToLogout" description="Validate if user is able to logout" finished-at="2026-03-22T16:32:53 EDT" duration-ms="3329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToLogout -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.HomeTest@7098b907]" started-at="2026-03-22T16:32:53 EDT" name="driverQuit" finished-at="2026-03-22T16:32:53 EDT" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserAbleToLogout status=SUCCESS method=HomeTest.verifyUserAbleToLogout()[pri:0, instance:testscripts.HomeTest@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscripts.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
