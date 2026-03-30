@@ -5,13 +5,13 @@
     <listener class-name="reportGeneration.Listeners"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testscripts.LoginTest">
         <methods>
-          <include name="verifyAdminLoginWithInvalidPassword"/>
+          <include name="verifyAdminLoginWithInvalidcreds"/>
           <include name="launchBrowser"/>
           <include name="driverQuit"/>
-          <include name="verifyAdminLoginWithInvalidUsername"/>
         </methods>
       </class> <!-- testscripts.LoginTest -->
     </classes>
