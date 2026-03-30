@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WaitUtility {
 
-	public static int EXPLICITWAITTIME = 5;
+	public static int EXPLICITWAITTIME =  5;
 	public void waitUntilElementTobeClickable(WebDriver driver,WebElement element)
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICITWAITTIME));
